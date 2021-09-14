@@ -20,7 +20,7 @@ li {
     padding: 15px 0px;
 }
 
-.editorial-blue-box {
+.type-box-blue {
     border-radius: 50%;
     font-size: 5px;
     background-color: #45abea;
@@ -28,6 +28,17 @@ li {
     font-size: 11px;
     background-color: #45abea;
     padding: 6px 18px;
+    color: #fff;
+    margin-left: 8px;
+}
+
+.type-box-purple {
+    background-color: #9c72e4;
+    border-radius: 16px;
+    font-size: 11px;
+    padding: 6px 18px;
+    color: #fff;
+    margin-left: 8px;
 }
 
 .check-symbol {
