@@ -11,13 +11,23 @@ body {
     background: #f6f8f9;
 }
 
-.white{
+.whitetext{
     color: #fff;
 }
 
 li {
     list-style-type: none;
     padding: 15px 0px;
+}
+
+.editorial-blue-box {
+    border-radius: 50%;
+    font-size: 5px;
+    background-color: #45abea;
+    border-radius: 16px;
+    font-size: 11px;
+    background-color: #45abea;
+    padding: 6px 18px;
 }
 
 .check-symbol {
