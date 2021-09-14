@@ -1,0 +1,40 @@
+/* reset css */
+ *{
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+     box-sizing: content-box;
+ }
+
+/* common */
+body {
+    background: #f6f8f9;
+}
+
+
+/* header */
+  header {
+     /* margin: 10px 5px; */
+     padding: 10px 8px;
+     background: #fff;
+  }
+
+ #logo-img {
+     width: 90px;
+     vertical-align: middle;
+ }
+
+ #logo-text {
+     display: inline-block;
+     font-size: 50px;
+     vertical-align: middle;
+ }
+  
+/* main content */
+ .box{
+     width: 80%;
+     height: 80%;
+     background: #fff;
+     margin: 50px auto;
+     padding: ;
+ }
