@@ -15,11 +15,15 @@ body {
     color: #fff;
 }
 
-hr {
-    border: 0;
-    border-bottom: 10px solid #f6f8f9;
+li {
+    list-style-type: none;
 }
 
+hr {
+    border: 0;
+    border-bottom: 4px solid #f6f8f9;
+    margin-top: 9px;
+}
 
 /* header */
   header {
@@ -40,12 +44,11 @@ hr {
  }
   
 /* main content */
- .container-middle {
+ .container-hight {
      width: 1000px;
      height: 600px;
      background: #fff;
      margin: 50px auto;
-     padding: 30px 50px;
      border-radius: 10px;
  }
 
@@ -53,6 +56,8 @@ hr {
      background: #47adf1;
      width: 70px;
      padding: 8px 28px;
+     margin-top: 15px;
+     margin-left: 65px;
      border-radius: 12px;display: inline-block;
  }
 
@@ -61,8 +66,16 @@ hr {
     border: 1px solid #c5cbd0;
     width: 87px;
     padding: 8px 28px;
+    margin-top: 15px;
     border-radius: 12px;
     display: inline-block;
     color: #cbd0d5
  }
+
+ /* second section middle */
+  .conteiner-middle {
+      padding: 60px;
+  }
+
+
 
