@@ -7,6 +7,11 @@
  }
 
 /* common */
+.container {
+    width: 50%;
+    margin: auto;
+}
+
 body {
     background: #f6f8f9;
 }
@@ -22,7 +27,7 @@ li {
 
 hr {
     border: 0;
-    border-bottom: 4px solid #f6f8f9;
+    border-bottom: 2px solid #f6f8f9;
     margin-top: 9px;
 }
 
@@ -35,19 +40,20 @@ hr {
   }
 
  #logo-img {
-     width: 90px;
+     width: 60px;
      vertical-align: middle;
+     margin-left: 20px;
  }
 
  #logo-text {
      display: inline-block;
-     font-size: 50px;
+     font-size: 45px;
      vertical-align: middle;
  }
   
 /* main content */
  .container-hight {
-     width: 1000px;
+     width: 900px;
      height: 640px;
      background: #fff;
      margin: 50px auto;
@@ -56,23 +62,28 @@ hr {
  }
 
  .add-task-box {
-     background: #47adf1;
-     width: 70px;
-     padding: 8px 28px;
-     margin-top: 15px;
-     margin-left: 65px;
-     border-radius: 12px;display: inline-block;
+    background: #47adf1;
+    width: 70px;
+    padding: 8px 10px;
+    margin-top: 15px;
+    margin-left: 65px;
+    border-radius: 6px;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
  }
 
  .add-section-box {
     background: #fff;
     border: 1px solid #c5cbd0;
     width: 87px;
-    padding: 8px 28px;
+    padding: 8px 10px;
     margin-top: 15px;
-    border-radius: 12px;
+    border-radius: 6px;
     display: inline-block;
-    color: #cbd0d5
+    color: #cbd0d5;
+    text-align: center;
+    font-size: 13px;
  }
 
  /* second section middle */
