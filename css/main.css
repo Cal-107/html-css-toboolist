@@ -11,6 +11,15 @@ body {
     background: #f6f8f9;
 }
 
+.white{
+    color: #fff;
+}
+
+hr {
+    border: 0;
+    border-bottom: 10px solid #f6f8f9;
+}
+
 
 /* header */
   header {
@@ -31,10 +40,29 @@ body {
  }
   
 /* main content */
- .box{
-     width: 80%;
-     height: 80%;
+ .container-middle {
+     width: 1000px;
+     height: 600px;
      background: #fff;
      margin: 50px auto;
-     padding: ;
+     padding: 30px 50px;
+     border-radius: 10px;
  }
+
+ .add-task-box {
+     background: #47adf1;
+     width: 70px;
+     padding: 8px 28px;
+     border-radius: 12px;display: inline-block;
+ }
+
+ .add-section-box {
+    background: #fff;
+    border: 1px solid #c5cbd0;
+    width: 87px;
+    padding: 8px 28px;
+    border-radius: 12px;
+    display: inline-block;
+    color: #cbd0d5
+ }
+
