@@ -7,10 +7,10 @@
  }
 
 /* common */
-.container {
-    /* width: 50%;
-    margin: auto; */
-}
+/* .container {
+    width: 50%;
+    margin: auto;
+} */
 
 body {
     background: #f6f8f9;
@@ -166,6 +166,7 @@ hr {
         border-radius: 50%;
         margin-right: 8px;
     }
+
 
 
 
