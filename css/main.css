@@ -8,8 +8,8 @@
 
 /* common */
 .container {
-    width: 50%;
-    margin: auto;
+    /* width: 50%;
+    margin: auto; */
 }
 
 body {
@@ -166,7 +166,6 @@ hr {
         border-radius: 50%;
         margin-right: 8px;
     }
-  }
 
 
 
